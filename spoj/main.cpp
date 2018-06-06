@@ -7,15 +7,14 @@ using namespace std;
 int main()
 {
   int petla;
-  string slowo;
+  char slowo[50]
 
   cin >> petla;
 
   do {
 
-    cin >> slowo;
+    cin.getline(slowo,50);
     cout << slowo;
-    cin >> slowo;
 
     petla--;
   } while(petla > 0);
