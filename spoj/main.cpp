@@ -13,7 +13,12 @@ int main()
 
   do {
 
+<<<<<<< HEAD
     cin >> slowo;
+    cout << slowo;
+=======
+    cin >> slowo;
+>>>>>>> 44d116b... main.cpp
 
     petla--;
   } while(petla > 0);
